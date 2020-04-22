@@ -1,0 +1,243 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+	margin: 5px;
+	padding: 0;
+	background-color: #fff;
+}
+
+img{
+	width : 150px; 
+  	height : 150px;
+  	border: none;
+ 	border-radius: 50%;
+}
+
+.photomarine{
+    background-color: #03A9F4;
+}
+
+.ma_photo p{
+	text-align: center;
+}
+
+.photo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+}
+
+h2{
+	padding-left: 10px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+h1 span{
+  color: #03A9F4;
+}
+
+p span{
+	border-bottom: 2px solid #03A9F4;
+}
+
+.trait_jaune{
+	border-bottom: 2px solid #03A9F4;
+	width: auto;
+}
+
+li{
+	list-style-type: none;
+	margin-left: 8px; 
+}
+
+.titre{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+h2.box_noir{
+	display: block;
+	background-color: #424242;
+	color: #03A9F4;
+	text-align: center;
+}
+
+.adresse p{
+	text-align: justify;
+	padding-left: 10px;
+}
+
+.resumer p{
+	text-align: justify;
+	margin: 10px;
+}
+
+.icone{
+	text-align: center;
+}
+
+.icone i{
+	color: #000000;
+	font-size: 30px;
+	width : 50px; 
+  	height : 50px;
+  	margin: 10px;
+  	border: 2px solid #000000;
+ 	border-radius: 50%;
+ 	line-height: 50px;
+ 	text-align: center;
+}
+
+li i{
+	color: #03A9F4;
+	font-size: 9px;
+}
+
+h2 i{
+	color: #03A9F4;
+}
+
+.fond_jaune{
+	 width: 100%;
+     height: 800px;
+     background-color: #03A9F4;
+}
+
+.block{
+	width: 50%;
+}
+
+.recommandations{
+	width: 100%;
+	display: flex;
+	text-align: center;
+}
+
+.interline1, .interline2, .interline3, .interline4{
+		line-height: 4px;
+	}
+
+@media only screen and (min-width: 600px){
+
+	.trait_jaune{
+	border-bottom: 2px solid #03A9F4;
+	width: auto;
+	margin-left: 10px;
+}
+	body{
+		margin: 10px 10px 10px 20px;
+	}
+
+	.interline1, .interline2, .interline3, .interline4{
+		line-height: 4px;
+	}
+	
+	.fond_jaune{
+		height: 660px;
+	}
+}
+
+@media only screen and (min-width: 960px){
+
+	body{
+		margin: 0px 40px 0px 40px;
+	}
+
+	.photomarine{
+		width: 30%;
+		position: relative;
+		float: left;
+	}
+
+	.titrecv{
+		width: 70%;
+		text-align: justify;
+		float: right;
+		margin-bottom: 70px;
+	}
+
+	.titrecv h1, .titrecv p{
+		text-align: justify;
+		margin-left: 40px;
+		line-height: 10px;
+	}
+
+	.titrecv h1{
+		font-size: 50px;
+	}
+
+	.titrecv p{
+		font-size: 20px;
+	}
+
+
+	.fond_jaune{
+		float: left;
+		width: 30%;
+		height: 1000px;
+	}
+	img{
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+
+	.activite{
+		position: relative;
+		width: 70%;
+		float: right;
+	}
+
+	.adresse{
+		margin: 30px 0px 30px 30px;
+	}
+
+	.resumer{
+		margin: 10px 30px 280px 30px;
+	}
+
+	.trait_jaune{
+		width: auto;
+		margin-left: 40px;
+	}
+
+	.recommandations{
+		line-height: 4px;
+		text-align: justify;
+		margin-left: 40px;
+	}
+
+	.interline1, .interline2, .interline3, .interline4{
+		line-height: 4px;
+	}
+
+	.paragraphe{
+	display: flex;
+	width: 100%;
+	text-align: justify;
+	}
+
+	.alignement1{
+		margin-right: 310px;
+	}
+
+	.alignement3{
+		margin-right: 210px;
+	}
+
+	.alignement5{
+		margin-right: 150px;
+	}
+
+	.annee_formation{
+		margin-right: 50px;
+	}
+
+}
